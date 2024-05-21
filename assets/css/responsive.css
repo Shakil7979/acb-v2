@@ -232,6 +232,9 @@
     .sk_con_left h2 {
         font-size: 28px;
     }
+    .banner_img_main { 
+        margin-left: 0;
+    }
     .sk_shpae_con { 
         bottom: -38px;
         left: 67px;
@@ -545,6 +548,9 @@
 
 	/* SHAKIL CSS HERE  */
 
+    .banner_img_main { 
+        margin-left: 0;
+    }
 	.sk_shpae_con {
         bottom: -20px;
         left: 79px;

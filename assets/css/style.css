@@ -310,14 +310,16 @@
    position: relative;
  }
  
- .banner_img_main{
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-align: start;
-       -ms-flex-align: start;
-           align-items: flex-start;
- }
+ .banner_img_main {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	justify-content: center;
+  margin-left: -113px;
+}
  
  .banner_single_img{
    position: relative;
@@ -354,12 +356,12 @@
  }
  
  .banner_top_img_area {
-   max-width: 380px;
-   position: absolute;
-   top: -12%;
-   left: 53%;
-   z-index: 999;
- }
+	max-width: 380px;
+	position: absolute;
+	top: -12%;
+	right: 0;
+	z-index: 999;
+}
  
  .banner_top_img {
    max-width: 320px;
