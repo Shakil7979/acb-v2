@@ -3,6 +3,7 @@
 @media all and (min-width: 1560px){
     .container {
         max-width: 1613px;
+        padding: 0; 
     }
 }
 
