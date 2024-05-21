@@ -9,6 +9,10 @@
     .sk_con_left h2 { 
         font-size: 48px; 
     }
+	.sk_consult_color { 
+		bottom: 107px;
+		right: 39px;
+	}
 	.heading1 { 
 		font-size: 50px; 
 	}
@@ -120,7 +124,7 @@
  
         font-size: 16px; 
     }
-    .footer_reach h3 {
+    .footer_reach a {
         font-size: 21px; 
     }
     .footer_reach h5 {
@@ -158,6 +162,10 @@
 @media all and (max-width: 1400px) {
 	.heading1 {
 		font-size: 44px;
+	}
+	.sk_consult_color li span {
+		width: 16px;
+		height: 16px; 
 	}
 	.single_management_item .tittle {
 		font-size: 18px; 
@@ -561,6 +569,10 @@
 	.heading2 {
 		font-size: 28px;
 	}
+	.sk_consult_color { 
+		bottom: 79px;
+		right: 25px;
+	}
 	.btn1 {
 		font-size: 16px;
 	}
@@ -642,7 +654,7 @@
         margin-bottom: 18px;
     }
     .footer_reach h5,
-    .footer_reach h3 {
+    .footer_reach a {
         font-size: 18px;
     }
     .footer_resorce ul li {
@@ -654,6 +666,13 @@
 @media all and (max-width:450px) {
 	.heading1 {
 		font-size: 32px;
+	}
+	.sk_consult_color li { 
+		margin-bottom: 3px;
+	}
+	.sk_consult_color { 
+		bottom: 68px;
+		right: 16px;
 	}
 	.heading2 {
 		font-size: 24px;

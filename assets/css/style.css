@@ -1,8 +1,14 @@
  /* Font Family  */
-
- /* font-family: 'Alternate Gothic No3 D';
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ /* 
+ 
+    font-family: 'Alternate Gothic No3 D';
     font-family: 'Avenir Next LT Pro';
-    font-family: 'Geneva';*/
+    font-family: 'Geneva';
+    font-family: "Roboto", sans-serif; 
+	  font-family: 'Acumin Pro';
+    
+    */
 
 
 /* Default Css */
@@ -72,8 +78,8 @@ img{
   align-items: center;
   gap: 0px 18px;
   padding: 16px 44px 16px 40px;
-  color: #FFF !important;
-  font-family: Montserrat;
+  color: #FFF !important; 
+  font-family: "Roboto", sans-serif;
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
@@ -127,10 +133,10 @@ img{
 }
 .header_nav nav ul li .menu_item{
   color: #333;
-  font-family: Montserrat;
-  font-size: 18px;
+  font-family: 'Geneva';
+  font-size: 16px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   position: relative;
   transition: 0.3s;
   padding: 25px 0px;
@@ -227,23 +233,23 @@ img{
   padding: 50px 0 122px 0;
   position: relative;
 }
-.banner_area::after{
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 0;
-  height: 7px;
-  width: 50%;
-  background: #FFAA02;
+.banner_area::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 0;
+	height: 7px;
+	width: 54%;
+	background: #FFAA02;
 }
-.banner_area::before{
-  position: absolute;
-  content: "";
-  bottom: 0;
-  right: 0;
-  height: 7px;
-  width: 40%;
-  background: #225128;
+.banner_area::before {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+	height: 7px;
+	width: 41%;
+	background: #225128;
 }
 .home_banner_content .banner_sub_content{
   max-width: 520px;
@@ -407,31 +413,33 @@ img{
   transform: rotate(45deg);
 }
 
-.single_average_item .single_average_item_top{
-  padding: 21px 30px;
-  gap: 7px;
+.single_average_item .single_average_item_top {
+	padding: 21px 21px;
+	gap: 7px;
 }
 
 .single_average_item .single_average_item_bottom{
   padding: 44px 30px;
 }
 
-.single_average_item_top .text_33{
-  color: #225128;
-  font-size: 33px;
-  font-family: 'Alternate Gothic No3 D';
-  line-height: 55px;
-  font-weight: 800;
+.single_average_item_top .text_33 {
+	color: #225128;
+	font-size: 84px;
+	font-family: 'Alternate Gothic No3 D';
+	line-height: 55px;
+	font-weight: 800;
+	flex: 0 0 41%;
 }
 
-.single_average_item_top .text_33 sub{
-  font-weight: 400;
+.single_average_item_top .text_33 sub {
+	font-weight: 400;
+	font-size: 46px;
 }
 
-.single_average_item_top .text_22{
-  font-family: 'Avenir Next LT Pro';
-  font-size: 22px;
-  color: #020000;
+.single_average_item_top .text_22 {
+	font-family: 'Avenir Next LT Pro';
+	font-size: 20px;
+	color: #020000;
 }
 .single_average_item_top .text_17{
   font-family: 'Geneva';
@@ -563,10 +571,11 @@ img{
   color: #333C39;
 }
 
-.single_management_item .management_item_text{
-  font-size: 16px;
-  line-height: 28px;
-  color: #646464;
+.single_management_item .management_item_text {
+	font-size: 16px;
+	line-height: 28px;
+	color: #646464;
+	font-family: 'Acumin Pro';
 }
 
 .single_management_item .learn{
@@ -700,11 +709,12 @@ img{
 	justify-content: center;
 	align-items: center;
 }
-.save_item_text{
-  font-size: 24px;
-  color: #646464;
-  text-align: center;
-  padding: 20px;
+.save_item_text {
+	font-size: 24px;
+	color: #646464;
+	text-align: center;
+	padding: 20px;
+	font-family: 'Acumin Pro';
 }
 
 /* Save Area End */
@@ -832,11 +842,12 @@ img{
   line-height: 30px;
 }
 
-.what_we_do_item .management_item_text{
-  color: #333C39;
-  font-size: 20px;
-  line-height: 28px;
-} 
+.what_we_do_item .management_item_text {
+	color: #646464;
+	font-size: 20px;
+	line-height: 28px;
+	font-family: 'Acumin Pro';
+}
 /* What we do Area End */
 
 
@@ -848,7 +859,43 @@ img{
 /* Shakil css Here  */
 
 
+.sk_consult_color li p {
+	font-size: 10px;
+	color: #000000;
+	font-family: 'JUST Sans';
+}
 
+.sk_consult_color li span {
+	width: 29px;
+	height: 29px;
+	display: inline-block;
+	background: #FFBE00;
+	border-radius: 100%;
+}
+
+.sk_consult_color li {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	margin-bottom: 8px;
+}
+
+.sk_consult_color li:nth-child(2) span{
+  background: #04AF41;
+}
+.sk_consult_color li:nth-child(3) span{ 
+  background: #015221;
+}
+
+.sk_consult_color li:nth-child(4) span{ 
+  background: #44512B;
+}
+
+.sk_consult_color {
+	position: absolute;
+	bottom: 149px;
+	right: 54px;
+}
 
 
 
@@ -1241,13 +1288,13 @@ img{
 	max-width: 300px;
 }
 
-.footer_reach h4, 
+.footer_reach a, 
 .footer_resorce h4 {
 	color: #333C39;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25px;
-    margin-bottom: 33px;
+  margin-bottom: 33px;
 	font-family: 'Geneva';
 }
 
@@ -1323,6 +1370,7 @@ img{
 .copy_text ul { 
 	display: flex;
 	gap: 25px;
+  align-items: center;
 }
 
 .copy_text ul li p ,
