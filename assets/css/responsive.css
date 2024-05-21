@@ -228,6 +228,12 @@
 	}
 
 	/* SHAKIL CSS HERE   */
+    .single_average_item { 
+        margin-bottom: 40px;
+    }
+    .what_we_do_item { 
+        height: 100%;
+    }
 	.sk_contact_section_title h2, .sk_section_title h2,
     .sk_con_left h2 {
         font-size: 28px;
