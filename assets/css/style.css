@@ -1298,6 +1298,10 @@ img{
 	font-family: 'Geneva';
 }
 
+.footer_reach a { 
+	font-size: 28px ; 
+}
+
 .footer_reach h3 {
 	font-size: 32px;
 	font-weight: 600; 
