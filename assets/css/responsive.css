@@ -1,0 +1,695 @@
+@media all and (min-width: 1560px){
+    .container {
+        max-width: 1613px;
+    }
+}
+
+@media all and (max-width: 1560px){
+	/* SHKAIL CSS HERE  */
+    .sk_con_left h2 { 
+        font-size: 48px; 
+    }
+	.heading1 { 
+		font-size: 50px; 
+	}
+	.text_25 { 
+		font-size: 18px; 
+		line-height: 34px;
+	}
+	.companies_text .text_24 { 
+		font-size: 18px; 
+	}
+	.btn1 { 
+		font-size: 18px; 
+	}
+	.save_item_text {
+		font-size: 16px; 
+	}
+	.what_we_do_item .management_item_text { 
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.heading2 { 
+		font-size: 42px; 
+	}
+	.compani_list .list_text {
+		font-size: 17px; 
+	}
+    .sk_con_left h2::after { 
+        width: 280px;
+        height: 4px; 
+    }
+    .sk_con_left p {
+        font-size: 16px; 
+        line-height: 24px; 
+        margin: 0 auto 15px auto;
+    }
+    .sk_ready_left h3 {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        color: #fff;
+    }
+    .sk_ready_middle p {
+        font-size: 16px; 
+        line-height: 25px; 
+    }
+    .sk_what_first_img {
+        width: 167px; 
+    }
+    .sk_what_second_img { 
+        left: 167px;
+        width: 250px;
+    }
+    .sk_what_third_img { 
+        right: 100px;
+        bottom: 108px;
+        width: 314px;
+    }
+
+    .sk_shpae_con h2 {
+        font-size: 58px; 
+    }
+    .sk_shpae_con {
+        width: 220px;
+    }
+    .sk_shpae_con h4 {
+        font-size: 16px; 
+    }
+    
+    .sk_company_img:after,
+    .sk_what_first_img:after ,
+    .sk_what_second_img:after ,
+    .sk_what_third_img:after { 
+        width: 5px; 
+    }
+
+    .sk_company_img:before,
+    .sk_what_first_img:before ,
+    .sk_what_second_img:before ,
+    .sk_what_third_img:before { 
+        width: 5px; 
+    }
+    .sk_what_ul li img {
+        width: 16px;
+        margin-top: 6px;
+    }
+    .sk_contact_section_title h2,
+    .sk_section_title h2 { 
+        font-size: 48px; 
+    }
+    .sk_section_title h2::after { 
+        height: 4px; 
+    }
+    .sk_con_left.sk_company_left {
+        width: 100%;
+        max-width: 678px;
+    }
+    .sk_contact_section_title p {
+        font-size: 16px; 
+        line-height: 24px; 
+        max-width: 805px; 
+    }
+    .sk_footer_logo p {
+        font-size: 16px; 
+    }
+    .footer_resorce ul li a, .footer_reach p {
+        font-size: 16px; 
+    }
+    .footer_reach h4, .footer_resorce h4 {
+ 
+        font-size: 16px; 
+    }
+    .footer_reach h3 {
+        font-size: 21px; 
+    }
+    .footer_reach h5 {
+        font-size: 21px;  
+        margin-bottom: 29px;
+    }
+    .footer_social li a i { 
+        font-size: 21px; 
+    }
+    .copy_text ul li p, .copy_text ul li a {
+        font-size: 16px;  
+    }
+    
+} 
+
+@media all and (max-width: 1500px) {
+	.btn1 { 
+		font-size: 16px;
+	}
+	.header_nav nav ul li .menu_item {
+		font-size: 15px;
+		padding: 25px 0px;
+	}
+	.ph_text_top {
+		font-size: 22px;
+	}
+	.header_nav nav {
+		gap: 0px 18px;
+	}	
+	.header_nav nav ul {
+		gap: 30px 20px;
+	}
+} 
+
+@media all and (max-width: 1400px) {
+	.heading1 {
+		font-size: 44px;
+	}
+	.single_management_item .tittle {
+		font-size: 18px; 
+	}
+	.single_management_item .management_item_text { 
+		line-height: 22px; 
+	} 
+	.what_we_do_item .tittle {
+		font-size: 30px;
+	} 
+
+	/* SHAKIL CSS HERE  */
+	.sk_ready_left_img { 
+        height: 160px; 
+        flex: 0 0 160px;
+    }
+    .sk_ready_left_img img {
+        width: 95px;
+    }
+    .sk_ready_left h3 {
+        font-size: 31px; 
+        line-height: 39px; 
+    }
+    .sk_what_third_img {
+        right: 100px;
+        bottom: 222px;
+        width: 228px;
+    }
+    .sk_con_left h2 { 
+        margin-bottom: 50px;  
+    }
+    .sk_ready_left { 
+        gap: 47px;
+    }
+}
+@media all and (max-width: 1199px) {
+	.heading1 {
+		font-size: 50px;
+	}
+	.heading2 {
+		font-size: 43px;
+	}
+	.what_we_do_item .tittle {
+		font-size: 28px;
+	}
+	.save_item_text {
+		font-size: 20px;
+	}
+
+	/* SHAKIL CSS HERE   */
+	.sk_contact_section_title h2, .sk_section_title h2,
+    .sk_con_left h2 {
+        font-size: 28px;
+    }
+    .sk_shpae_con { 
+        bottom: -38px;
+        left: 67px;
+    } 
+    .sk_ready_middle {
+        padding: 16px; 
+    }
+    .sk_ready_left_img {
+        height: 120px;
+        flex: 0 0 120px;
+    }
+    .sk_ready_left h3 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .sk_what_third_img {
+        right: 0;
+        bottom: 197px; 
+    }
+    .sk_section_title h2::after { 
+        width: 206px; 
+    }
+    .sk_form {
+        margin: 63px 0 0 0;
+    }
+    .sk_input_group textarea, .sk_input_group input {
+ 
+        padding: 14px 26px;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+	
+	.heading1 {
+		font-size: 48px;
+	}
+	.heading2 {
+		font-size: 40px;
+	}
+}
+
+@media all and (min-width: 992px) {
+	.header_menu {
+		display: flex !important;
+	}
+
+	.header_nav {
+		display: block !important;
+	}
+
+}
+
+@media all and (max-width: 991px) {
+	.header_main {
+		padding: 24px 0px;
+	}
+	.heading2 {
+		font-size: 32px;
+	}
+	.btn1 {
+		padding: 10px 33px 10px 30px;
+		font-size: 20px;
+		border-radius: 20px;
+	}
+	/* Mobile menu ----------------------------*/
+	.mobile_menu {
+		display: block;
+	}
+
+	.header_nav nav {
+		position: absolute;
+		width: calc(100% + 40px);
+		top: 100%;
+		left: calc(-100% - 74px);
+		background: #FFF;
+		z-index: 9999999;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+		padding: 40px 0;
+		box-sizing: border-box;
+		text-align: left !important;
+		transition: 0.3s;
+		/* display: none; */
+	}
+	.header_nav nav.active_nav {
+		left: -24px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.header_nav nav ul {
+		flex-direction: column;
+		align-items: flex-start;
+		padding-left: 24px;
+	}
+	.ph_text_top {
+		padding-left: 24px;
+		padding-top: 40px;
+	}
+	.active_nav .btn1{
+		margin-top: 40px;
+		margin-left: 24px;
+	}
+	.header_nav nav ul li .menu_item::before {
+		bottom: 10px;
+	}
+
+	.header_nav nav ul li a {
+		padding: 0px 0px;
+	}
+
+	.header_nav nav ul li a::before {
+		bottom: -10px;
+	}
+
+	.heading1 {
+		font-size: 44px;
+	}
+	.banner_area {
+		padding: 50px 0 60px 0;
+	}
+	.single_average_item {
+		margin-bottom: 30px;
+	}
+	.companies_img {
+		margin: 0 auto 30px;
+	}
+	.companies_area {
+		padding: 60px 0;
+	}
+	.companies_wrapper {
+		padding-top: 40px;
+	}
+	.text_25 {
+		font-size: 24px;
+		line-height: 38px;
+	}
+	.faq_area {
+		padding: 60px 0 40px 0;
+	}
+	.what_we_do_all_item {
+		padding-top: 60px;
+	}
+	.management_area {
+		padding: 47px 0 60px 0;
+	}
+	.save_item_text {
+		font-size: 18px;
+	}
+	.single_management_item .tittle {
+		font-size: 22px;
+		padding: 20px 0 10px 0;
+	}
+	.single_management_item .learn {
+		font-size: 15px;
+	}
+	.companies_text .text_24 {
+		font-size: 20px;
+	}
+	.what_we_do_item img {
+		max-width: 70px;
+	}
+	.what_we_do_item .management_item_text {
+		font-size: 18px;
+	}
+
+	
+	/* SHAKIL CSS HERE  */
+
+	.sk_shpae_con {
+        bottom: -84px;
+        left: 14px;
+    }
+    .sk_ready_left {
+        flex: 0 0 25%;
+    }
+    .sk_ready_left {
+        flex: 0 0 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sk_ready_left_img { 
+        width: 120px;
+    }
+    .sk_ready_left {
+        gap: 9px;
+    }
+    .sk_ready_middle {
+        flex: 0 0 56%;
+    }
+    .sk_ready_middle p { 
+        margin-bottom: 10px;
+    }
+    .sk_ready_left h3 {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .sk_ready_left_img {
+        height: 90px;
+        flex: 0 0 90px;
+        width: 90px;
+    }
+    .sk_ready_left_img img {
+        width: 56px;
+    }
+    .sk_ready_right img { 
+        height: 100%;
+    }
+    .sk_what_first_img {
+        width: 99px;
+    }
+    .sk_what_second_img {
+        left: 99px;
+        width: 172px;
+    }
+    .sk_what_third_img {
+        right: 0;
+        bottom: 388px;
+        width: 163px;
+    }
+    .sk_what_third_img { 
+        width: 163px;
+    }
+    .footer_row { 
+        gap: 5px;
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 767px) {
+	.heading1 {
+		font-size: 40px;
+	}
+	.heading2 {
+		font-size: 30px;
+	}
+	.btn1 {
+		font-size: 18px;
+	}
+	.section_tittle .tittle_heading::before {
+		width: 280px;
+	}
+	.what_we_do_item .tittle {
+		font-size: 26px;
+		line-height: normal;
+		padding: 20px 0 20px;
+	}
+	.title {
+		font-size: 17px;
+		font-weight: 600;
+	}
+	.single_management_item img {
+		max-width: 90px;
+	}
+	.companies_text .text_24 {
+		font-size: 18px;
+	}
+	.compani_list .list_text {
+		font-size: 18px;
+	}
+
+	/* SHAKIL CSS HERE  */
+
+	.sk_shpae_con {
+        bottom: -20px;
+        left: 79px;
+    }
+    .sk_con_img { 
+        margin-top: 40px;
+    }
+    .sk_ready_box { 
+        flex-direction: column;
+        gap: 25px;
+    }
+    .sk_ready_right img {
+        height: auto;
+    }
+    .sk_what_first_img {
+        position: inherit;
+        top: 0;
+        margin-bottom: 106px;
+    }
+    .sk_what_second_img { 
+        top: -35px;
+    }
+
+    .sk_what_third_img {
+        right: 0;
+        bottom: 68px;
+        width: 163px;
+    }
+    .sk_what_left {
+        width: 100%;
+        max-width: 290px;
+        margin: 0 auto;
+    }
+    .footer_row { 
+        flex-direction: column;
+        gap: 40px;
+    }
+    .sk_section_padding {
+        padding: 60px 0;
+    }
+    .footer_reach h4, .footer_resorce h4 {
+ 
+        margin-bottom: 10px; 
+    }
+    .sk_section_title h2 { 
+        margin-bottom: 15px;  
+    }
+    .copy_text ul li p, .copy_text ul li a,
+    .footer_resorce ul li a, .footer_reach p,
+    .sk_footer_logo p,
+    .sk_contact_section_title p,
+    .sk_ready_middle p,
+    .sk_con_left p {
+        font-size: 14px;
+        line-height: 22px; 
+    }
+    .sk_footer_logo { 
+        text-align: center;
+    }
+    .sk_footer_logo p { 
+        margin: 15px auto 0 auto;
+    }
+    .footer_reach { 
+        text-align: center;
+    }
+    .footer_resorce {
+        text-align: center;
+    }
+    .footer_social { 
+        justify-content: center;
+    }
+    .copy_text ul {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media all and (max-width:575px) {
+	.heading1 {
+		font-size: 36px;
+	}
+	.heading2 {
+		font-size: 28px;
+	}
+	.btn1 {
+		font-size: 16px;
+	}
+	.section_tittle .tittle_heading::before {
+		width: 250px;
+		height: 5px;
+	}
+	.text_25 {
+		font-size: 22px;
+		line-height: 36px;
+	}
+	.header_logo a img {
+		max-width: 150px;
+	}
+	.ph_text_top {
+		font-size: 24px;
+		padding-top: 25px;
+	}
+	.active_nav .btn1 {
+		margin-top: 25px;
+	}
+	.save_item_text {
+		font-size: 16px;
+	}
+	.single_management_item img {
+		max-width: 50px;
+	}
+	.single_management_item .tittle {
+		font-size: 20px;
+	}
+	.companies_text .text_24 {
+		font-size: 17px;
+	}
+	.compani_list .list_text {
+		font-size: 16px;
+	}
+	.what_we_do_item img {
+		max-width: 50px;
+	}
+	.what_we_do_item .tittle {
+		font-size: 22px;
+	}
+	.what_we_do_item .management_item_text {
+		font-size: 16px;
+	}
+	.section_tittle .sub_tittle {
+		padding-top: 25px;
+	}
+	.title {
+		font-weight: normal;
+	}
+
+	/* SHAKIL CSS HERE  */
+
+	.sk_contact_section_title h2, .sk_section_title h2, .sk_con_left h2 {
+        font-size: 24px;
+        margin-bottom: 43px;
+    }
+    .sk_con_left h2::after {
+        width: 118px;
+        height: 4px;
+    }
+    .sk_shpae_con {
+        bottom: -39px;
+        left: 79px;
+    }
+    .sk_section_title h2::after {
+        width: 124px;
+    }
+    .sk_input_group textarea, .sk_input_group input {
+        padding: 10px 21px;
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    .sk_input_group textarea {
+        height: 110px; 
+    }
+    .sk_contact_main_area  .sk_contact_section_title h2{ 
+        margin-bottom: 18px;
+    }
+    .footer_reach h5,
+    .footer_reach h3 {
+        font-size: 18px;
+    }
+    .footer_resorce ul li {
+        margin-bottom: 3px;
+    }
+}
+
+
+@media all and (max-width:450px) {
+	.heading1 {
+		font-size: 32px;
+	}
+	.heading2 {
+		font-size: 24px;
+	}.section_tittle .tittle_heading::before {
+		left: 14%;
+	}
+	.text_25 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.header_logo a img {
+		max-width: 100px;
+	}
+	.banner_area {
+		padding: 50px 0 100px 0;
+	}
+
+	/* SHAKIL CSS HERE  */
+	.sk_shpae_con { 
+        width: 177px;
+    }
+    .sk_shpae_con h4 {
+        font-size: 14px;
+    }
+    .sk_shpae_con h2 {
+        font-size: 40px;
+        top: 43px;
+    }
+}
+
+
+@media all and (max-width:375px) {
+	.heading1 {
+		font-size: 28px;
+	}
+	.heading2 {
+		font-size: 22px;
+	}
+}

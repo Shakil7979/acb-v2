@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Alternate Gothic No3 D';
+    src: url('AlternateGotNo3D.woff2') format('woff2'),
+        url('AlternateGotNo3D.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Regular.woff2') format('woff2'),
+        url('AvenirNextLTPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-Bold.woff2') format('woff2'),
+        url('AvenirNextLTPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT Pro';
+    src: url('AvenirNextLTPro-It.woff2') format('woff2'),
+        url('AvenirNextLTPro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('GenevaPlain.woff2') format('woff2'),
+        url('GenevaPlain.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('GenevaNormal.woff2') format('woff2'),
+        url('GenevaNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('Geneva.woff2') format('woff2'),
+        url('Geneva.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('Geneva.woff2') format('woff2'),
+        url('Geneva.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('GenevaNormal-Italic.woff2') format('woff2'),
+        url('GenevaNormal-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('GenevaBold-Italic.woff2') format('woff2'),
+        url('GenevaBold-Italic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Geneva';
+    src: url('GenevaNormal.woff2') format('woff2'),
+        url('GenevaNormal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
