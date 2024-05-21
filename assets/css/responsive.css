@@ -9,6 +9,13 @@
     .sk_con_left h2 { 
         font-size: 48px; 
     }
+    .banner_top_img {
+        max-width: 270px; 
+    }
+    .banner_top_img_area { 
+        top: -12%;
+        left: 61%; 
+    }
 	.sk_consult_color { 
 		bottom: 107px;
 		right: 39px;
@@ -286,6 +293,7 @@
 		border-radius: 20px;
 	}
 	/* Mobile menu ----------------------------*/
+
 	.mobile_menu {
 		display: block;
 	}
@@ -388,6 +396,10 @@
 	
 	/* SHAKIL CSS HERE  */
 
+    .sk_contact_main_area.sk_section_padding {
+        padding: 100px 0;
+    }
+
 	.sk_shpae_con {
         bottom: -84px;
         left: 14px;
@@ -455,9 +467,15 @@
 	.heading1 {
 		font-size: 40px;
 	}
+    .sk_contact_main_area.sk_section_padding {
+        padding: 60px 0;
+    }
 	.heading2 {
 		font-size: 30px;
 	}
+    .sk_footer_logo { 
+        margin-top: 0;
+    }
 	.btn1 {
 		font-size: 18px;
 	}

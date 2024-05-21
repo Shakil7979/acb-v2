@@ -229,9 +229,9 @@ img{
                             Banner Area CSS Start
 ====================================================================*/
 
-.banner_area{
-  padding: 50px 0 122px 0;
-  position: relative;
+.banner_area {
+	padding: 128px 0 122px 0;
+	position: relative;
 }
 .banner_area::after {
 	position: absolute;
@@ -301,14 +301,14 @@ img{
 .banner_top_img_area {
 	max-width: 380px;
 	position: absolute;
-	top: -11%;
-	left: 48%;
-  z-index: 999;
+	top: -12%;
+	left: 53%;
+	z-index: 999;
 }
 
-.banner_top_img{
-  max-width: 379px;
-  position: relative;
+.banner_top_img {
+	max-width: 320px;
+	position: relative;
 }
 
 .banner_top_img:after {
@@ -353,12 +353,12 @@ img{
   
 }
 
-.section_tittle .tittle_heading{
-  text-align: center;
-  max-width: 856px;
-  margin: 0 auto;
-  padding-bottom: 25px;
-  position: relative;
+.section_tittle .tittle_heading {
+	text-align: center;
+	max-width: 793px;
+	margin: 0 auto;
+	padding-bottom: 25px;
+	position: relative;
 }
 
 .section_tittle .tittle_heading::before{
@@ -389,6 +389,11 @@ img{
   margin: 0 auto;
   background: #fff;
   position: relative;
+}
+
+.sk_footer_logo {
+	flex: 0 0 35%;
+	margin-top: 61px;
 }
 
 .single_average_item::after{
@@ -1214,6 +1219,10 @@ img{
 	margin-bottom: 20px;
 	text-align: center;
 	position: relative;
+}
+
+.sk_contact_main_area.sk_section_padding {
+	padding: 236px 0 100px 0;
 }
 
 .sk_contact_section_title p {
